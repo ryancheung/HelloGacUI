@@ -14,7 +14,7 @@ public:
 
     void Load()override
     {
-        RegisterTheme(Ptr<darkskin::Theme>());
+        RegisterTheme(Ptr(new darkskin::Theme()));
     }
 
     void Unload()override

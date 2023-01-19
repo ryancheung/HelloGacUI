@@ -7,7 +7,7 @@ using namespace vl::stream;
 void GuiMain()
 {
     {
-        FileStream fileStream(L"HelloWorld.bin", FileStream::ReadOnly);
+        FileStream fileStream(L"HelloGacUI.bin", FileStream::ReadOnly);
         GetResourceManager()->LoadResourceOrPending(fileStream);
     }
     hellogacui::MainWindow window;
